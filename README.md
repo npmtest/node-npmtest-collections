@@ -1,6 +1,6 @@
 # npmtest-collections
 
-#### test coverage for  [collections (v5.0.6)](http://www.collectionsjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-collections.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-collections) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-collections.svg)](https://travis-ci.org/npmtest/node-npmtest-collections)
+#### basic test coverage for  [collections (v5.0.6)](http://www.collectionsjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-collections.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-collections) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-collections.svg)](https://travis-ci.org/npmtest/node-npmtest-collections)
 
 #### data structures with idiomatic JavaScript collection interfaces
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-collections/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-collections/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-collections/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-collections/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-collections/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-collections/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-collections/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-collections/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-collections/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-collections/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-collections/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-collections/build/coverage.html/index.html)
 
@@ -105,7 +105,8 @@
         "cover": "istanbul cover node_modules/jasmine-node/bin/jasmine-node spec && istanbul report html && opener coverage/index.html",
         "test": "jasmine-node spec"
     },
-    "version": "5.0.6"
+    "version": "5.0.6",
+    "bin": {}
 }
 ```
 
